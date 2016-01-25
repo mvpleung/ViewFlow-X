@@ -1,5 +1,5 @@
 # ViewFlowX
-ViewFlow indicator modified version,forked from [<b>pakerfeldt/android-viewflow</b>](https://github.com/pakerfeldt/android-viewflow/edit/master/README.md)
+ViewFlow modified version to solve the problem of dislocation CircleIndicator smooth,forked from [<b>pakerfeldt/android-viewflow</b>](https://github.com/pakerfeldt/android-viewflow)
 
 <img src="https://github.com/mvpleung/ViewFlow-X/blob/master/art/viewflow.gif" width="320" height="480" />
 
@@ -47,4 +47,4 @@ Although possible, you should not call `setSelection(...)` immediately after cal
 
 ### Thanks
 
-[pakerfeldt/android-viewflow](https://github.com/pakerfeldt/android-viewflow/edit/master/README.md)
+[pakerfeldt/android-viewflow](https://github.com/pakerfeldt/android-viewflow)
