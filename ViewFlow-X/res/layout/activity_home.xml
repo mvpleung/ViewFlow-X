@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <org.taptwo.android.widget.ViewFlow
+            android:id="@+id/viewflow"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical" />
+
+        <org.taptwo.android.widget.CircleIndicator
+            android:id="@+id/viewflowindic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            app:activeColor="#EA5300"
+            app:activeType="fill"
+            app:circleSeparation="10dip"
+            app:inactiveColor="#CDCDCD"
+            app:inactiveType="fill"
+            app:radius="3dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" >
+
+        <org.taptwo.android.widget.ViewFlow
+            android:id="@+id/viewflow1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical" />
+
+        <org.taptwo.android.widget.ViewFlowCircleIndicator
+            android:id="@+id/viewflowindic1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            app:activeColor="#000000"
+            app:activeType="fill"
+            app:circleSeparation="10dip"
+            app:inactiveColor="#CDCDCD"
+            app:inactiveType="fill"
+            app:radius="3dip" />
+    </FrameLayout>
+
+</LinearLayout>
